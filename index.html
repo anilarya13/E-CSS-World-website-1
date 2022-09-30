@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap-4-utilities.min.css">
+  <title>Document</title>
+</head>
+<body class="bg-color">
+  <!-- start of navbar -->
+  <nav class="bg-primary">
+    <div class="container">
+    <div class="nav-wrapper">
+      <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <a href="#" class="brand-logo">GOBS IT SOLUTION</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html"><i class="material-icons left">home</i>Home</a></li>
+        <li><a href="badges.html"><i class="material-icons left">account_circle</i>About</a></li>
+        <li><a href="collapsible.html"><i class="material-icons left">call</i>Contact-Us</a></li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+  
+<!-- End of navbar -->
+<!-- side navbar start -->
+
+  <ul id="slide-out" class="sidenav">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="img/bg1.jpg">
+      </div>
+      <a href="#user"><img class="circle" src="img/myimg.jpg"></a>
+      <a href="#name"><span class="white-text name">Anil Kumar Arya</span></a>
+      <a href="#email"><span class="white-text email">ana.anilarya@gmail.com</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">home</i>Home</a></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>Website</a></li>
+    <li><a href="#!"><i class="material-icons">call</i>Contact-Us</a></li>
+    <li><a href="#!">Social Links</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Facebook</a></li>
+    <li><a class="subheader">Instagram</a></li>
+    <li><a class="subheader">Linkedin</a></li>
+    </ul>
+  
+
+<!-- End of side navbar -->
+
+<!-- Parallax effect -->
+<section>
+<div class="parallax-container center-align">
+  <div class="parallax"><img src="img/bg2.png"></div>
+  <marquee>
+  <h3 style="margin-top: 50px;" class="container center-align white-text">GOBS IT SOLUTION</h3>
+  </marquee>
+  <p class="container white-text">Hey! Friends subscribe my youtube channel for latest update</p>
+  <button class="bg-primary btn-large ">Subscribe</button>
+</div>
+</section>
+
+
+
+
+<!-- End of parallax effect -->
+
+
+<!-- start of section 2 -->
+<section>
+  <div class="container">
+  <h3 class="center-align">Learn with me</h3>
+  <div class="row">
+  <div class="col s12 m4">
+  <div class="services-container center-align">
+  <i class="material-icons  my-icon">highlight</i>
+  <h3 style="font-size:x-large">Java Tutorial</h3>
+  <P>Learn java with me in easy manner</P>
+  <button class="btn bg-primary">Learn</button>
+  </div>
+  </div>
+  
+  <div class="col s12 m4">
+  <div class="services-container center-align">
+  <i class="material-icons my-icon">gesture</i>
+  <h3 style="font-size:x-large">Python</h3>
+  <P>Learn Python with me in easy manner</P>
+  <button class="btn bg-primary">Learn</button>
+  </div>
+  </div>
+  <div class="col s12 m4">
+    <div class="services-container center-align">
+      <i class="material-icons my-icon">adb</i>
+    <h3 style="font-size:x-large">Android Tutorial</h3>
+    <P>Learn Reactjs with me in easy manner</P>
+    <button class="btn bg-primary">Learn</button>
+    </div>
+    </div>
+  </div>
+  
+  </section>
+  
+<!-- End of section 2 -->
+
+
+<!-- start Section 3 -->
+<section class="mt-2 p-5" style="background:url('img/bg3.jpg');background-size:cover;background-attachment:fixed">
+  <div class="container text-center mt-5">
+    <h3>
+      About : Anil Kumar Arya...!!
+    </h3>
+    <p>
+      I am Anil Arya, I am Trainer, I make  student how to write codes...
+    </p>
+    <p>
+      if you want to know about me than you can check my instagram and facebook page.....
+    </p>
+    <button class="btn bg-primary">Know more about me...?</button>
+    
+    </div>
+    
+
+
+</section>
+
+  
+  <!-- End of section 3 -->
+  
+
+  <script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
+
+  <script src="js/materialize.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+    //alert("testing")
+    $('.sidenav').sidenav({
+      edge:'right'
+    });
+  })
+  $('.parallax').parallax();
+  </script>
+  
+</body>
+</html>
